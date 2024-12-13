@@ -1,0 +1,45 @@
+{
+  "name": "monorepo-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "pnpm -C apps/test dev",
+    "test:build": "pnpm -C apps/test build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@eslint/js": "^9.16.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.1",
+    "@fortawesome/free-solid-svg-icons": "^6.7.1",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@types/lodash-es": "^4.17.12",
+    "@vitejs/plugin-vue-jsx": "^4.1.1",
+    "echarts": "^5.5.1",
+    "element-plus": "^2.9.0",
+    "eslint": "^9.16.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.13.0",
+    "lodash-es": "^4.17.21",
+    "postcss-color-mix": "^1.1.0",
+    "postcss-each": "^1.1.0",
+    "postcss-each-variables": "^0.3.0",
+    "postcss-for": "^2.1.1",
+    "postcss-nested": "^7.0.2",
+    "prettier": "^3.4.2",
+    "sass": "^1.83.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "unplugin-vue-define-options": "^1.5.3",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "@mv3/components": "workspace:^",
+    "@mv3/theme-chalk": "workspace:^",
+    "@mv3/utils": "workspace:^",
+    "postcss": "^8.4.49"
+  }
+}
